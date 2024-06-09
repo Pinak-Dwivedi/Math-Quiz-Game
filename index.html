@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/apple-touch-icon.png"
+    />
+
+    <title>Math Quiz Game</title>
+    <link href="./styles.css" rel="stylesheet" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <section class="container" data-container>
+      <div class="score-container">
+        <div class="score-container-inner">
+          <h3 class="score-title">Your Score:</h3>
+          <h3 class="score" data-score></h3>
+        </div>
+
+        <div class="score-container-inner">
+          <h3 class="score-title">High Score:</h3>
+          <h3 class="score" data-high-score></h3>
+        </div>
+      </div>
+
+      <div class="question-container">
+        <h2 class="question" data-question></h2>
+
+        <div class="choices" data-choices></div>
+      </div>
+    </section>
+  </body>
+</html>
